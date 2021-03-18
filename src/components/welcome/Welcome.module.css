@@ -1,0 +1,30 @@
+import React from "react";
+
+export function Welcome(){
+    return(
+        <section className={c.wrapperWelcome}>
+            <div className={c.content}>
+                <div className={c.mask}></div>
+                <div>
+                    <h2>Welcome</h2>
+                </div>
+                <div className={c.text}>
+                    <h1>
+                        <a href='#' style={textStyle} className={'typewrite'} data-period='2000'
+                           data-type='[ "I am Yuri Trypolski.", "I Love to Develop.", "I am a Creative and Versatile Person."]'>
+                            <span className={'wrap'}></span>
+                        </a>
+                    </h1>
+                </div>
+                <div>
+                    <h3>
+                        based in Belarus, Vitebsk.
+                    </h3>
+                </div>
+                <div>
+                    <a href='#' style={linkStyle} className={link}>Hire Me</a>
+                </div>
+            </div>
+        </section>
+    )
+}
