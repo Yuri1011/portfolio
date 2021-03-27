@@ -1,0 +1,326 @@
+.wrapperContact {
+    background-color: whitesmoke;
+    height: 100vh;
+    position: relative;
+    padding: 4.5rem 0;
+    overflow: hidden;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.contact {
+    opacity: 0.1;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 7em;
+}
+
+.minTitle {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.contactSpan {
+    display: block;
+    border-color: #20c997;
+    width: 80px;
+    border-width: 3px;
+    border-bottom: 3px solid #20c997;
+}
+
+.title_form {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: cadetblue;
+}
+
+form {
+    width: 120%;
+}
+
+input {
+    height: 70px;
+    width: 100%;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.button_send {
+    border-radius: 50rem;
+    background-color: #0d6efd;
+    width: 20%;
+    height: 67px;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.contacts {
+    padding: 5%;
+    font-size: xx-large;
+}
+
+.text_button {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.minTitle p {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 2561px) {
+    .contact {
+        font-size: 13em;
+    }
+
+    .minTitle {
+        font-size: 1.5rem;
+        top: 12%;
+    }
+
+    .contactSpan {
+        width: 130px;
+        border-bottom: 4px solid #20c997;
+    }
+}
+
+@media (max-width: 1537px) {
+    .contact {
+        font-size: 7em;
+    }
+
+    .minTitle {
+        font-size: .9rem;
+        top: 14.5%;
+    }
+
+    .contactSpan {
+        width: 130px;
+        border-bottom: 4px solid #20c997;
+    }
+
+    .title_form {
+        font-size: 2rem;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    input {
+        height: 40px;
+        width: 100%;
+    }
+
+    textarea {
+        height: 10rem;
+    }
+
+    .button_send {
+        width: 17%;
+        height: 55px;
+        font-size: 1rem;
+    }
+
+    .contacts {
+        padding: 1%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .minTitle {
+        top: 15.5%;
+    }
+}
+
+
+@media (max-width: 1367px  ) {
+    .minTitle {
+        top: 11%;
+    }
+
+    .contacts {
+        padding: 5%;
+        font-size: 2rem;
+    }
+
+    .text_button {
+        margin: 8% 8% 8% -15%;
+        width: 50rem;
+    }
+}
+
+@media (max-width: 1025px) {
+    .button_send {
+        width: 27%;
+    }
+
+    .contacts {
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .wrapperContact {
+        height: auto;
+    }
+
+    .minTitle {
+        top: 14%
+    }
+
+    .text_button {
+        margin: 8% 8% 8% -25%;
+        width: 50rem;
+    }
+}
+
+@media (max-width: 824px) {
+    .wrapperContact {
+        height: auto;
+    }
+}
+
+@media (max-width: 769px) {
+    .wrapperContact {
+        padding-top: 0;
+    }
+
+    .button_send {
+        width: 30%;
+    }
+
+    .contacts {
+        padding-top: 35px;
+        font-size: 1rem;
+    }
+
+    .contact {
+        font-size: 5em;
+    }
+
+    .minTitle {
+        font-size: .7rem;
+        font-weight: bold;
+        top: 4%;
+    }
+
+    .contactSpan {
+        width: 80px;
+        border-bottom: 3px solid #20c997;
+    }
+}
+
+@media (max-width: 732px) {
+    .wrapperContact {
+        height: auto;
+    }
+}
+
+@media (max-width: 641px) {
+    .wrapperContact {
+        height: auto;
+    }
+}
+
+@media (max-width: 569px) {
+    .wrapperContact {
+        height: auto;
+    }
+}
+
+@media (max-width: 541px  ) {
+    .wrapperContact {
+        height: auto;
+    }
+
+   form{
+       width: 50%;
+   }
+   .text_button{
+       margin: 8% 8% 8% -47%;
+       width: 50rem;
+   }
+}
+
+@media (max-width: 426px) {
+    .wrapperContact {
+        padding-top: 0;
+    }
+
+    .contact {
+        font-size: 4.5em;
+    }
+
+    .minTitle {
+        font-size: .5rem;
+        font-weight: bold;
+        margin-bottom: 0;
+        top: 3.5%;
+    }
+
+    .contacts {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 376px) {
+    .contact {
+        font-size: 4em;
+    }
+
+    .contactSpan {
+        border-bottom: 2px solid #20c997;
+    }
+}
+
+@media (max-width: 361px) {
+    .text_button {
+        margin-top: 10%;
+    }
+
+    .contacts {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 321px) {
+    .contact {
+        font-size: 3.3em;
+        margin-right: 10px;
+    }
+
+    .minTitle {
+        font-size: .5rem;
+        font-weight: bold;
+        margin-bottom: 0;
+        top: 3%;
+    }
+
+    .button_send {
+        width: 50%;
+    }
+
+    .contacts {
+        padding-top: 7px;
+    }
+}

@@ -1,0 +1,317 @@
+.wrapperAbout {
+    position: relative;
+    padding: 4.5rem 0;
+    overflow: hidden;
+    height: 100vh;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.aboutMe {
+    opacity: 0.1;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 7em;
+}
+
+.aboutSpan {
+    display: block;
+    border-color: #20c997;
+    width: 80px;
+    border-width: 3px;
+    border-bottom: 3px solid #20c997;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.minTitle {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.minTitle p {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.info {
+    display: flex;
+    padding: 2%;
+    margin-top: 7%;
+}
+
+.aboutMeText {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin-right: 50px;
+}
+
+.infoMini {
+    width: 100%;
+}
+
+.infoMini li {
+    list-style-type: none;
+}
+
+.ulInfo {
+    padding-left: 24%;
+}
+
+.btn-primary {
+    background-color: brown;
+}
+
+@media (max-width: 2561px) {
+    .wrapperAbout {
+        height: 100vh;
+    }
+
+    .aboutMe {
+        font-size: 13em;
+    }
+
+    .minTitle {
+        font-size: x-large;
+        top: 13%;
+    }
+
+    .aboutSpan {
+        width: 158px;
+        border-bottom: 4px solid #20c997;
+    }
+
+    .aboutMeText {
+        font-size: 2rem;
+    }
+
+    .aboutMeText h2 {
+        font-size: 2.5rem;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+
+    .li_text {
+        font-size: xx-large;
+    }
+
+    .style_CV {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1536px) {
+    .aboutMe {
+        font-size: 7em;
+    }
+
+    .minTitle {
+        font-size: 1rem;
+        top: 14%;
+    }
+
+    .aboutSpan {
+        width: 158px;
+        border-bottom: 4px solid #20c997;
+    }
+
+    .aboutMeText {
+        font-size: 1.3rem;
+        margin-right: 0;
+    }
+
+    .aboutMeText h2 {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .li_text {
+        font-size: x-large;
+    }
+
+    .style_CV {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1441px) {
+    .minTitle {
+        font-size: 0.9rem;
+        top: 16%;
+    }
+}
+
+@media (max-width: 1367px  ) {
+    .minTitle {
+        top: 11%;
+    }
+}
+
+@media (max-width: 1025px) {
+    .info {
+        margin-top: 1%;
+    }
+
+    .aboutMeText {
+        font-size: 1.8rem;
+    }
+
+    .li_text {
+        font-size: 1.6rem;
+    }
+
+    .minTitle {
+        top: 8%;
+    }
+}
+
+@media (max-width: 824px  ) {
+    .minTitle {
+        top: 16%;
+    }
+
+    .wrapperAbout {
+        height: auto;
+    }
+}
+
+@media (max-width: 769px) {
+    .wrapperAbout {
+        height: auto;
+    }
+
+    .aboutMe {
+        font-size: 5em;
+    }
+
+    .title {
+        padding-left: 0;
+    }
+
+    .minTitle {
+        font-size: 0.7rem;
+        top: 11%;
+    }
+
+    .aboutSpan {
+        width: 108px;
+        border-bottom: 3px solid #20c997;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .aboutMeText {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .ulInfo {
+        padding: 2% 0 0 22%;
+    }
+
+    .button_CV {
+        margin: 11% 0 0 20%;
+    }
+
+}
+
+@media (max-width: 737px  ) {
+    .minTitle {
+        top: 11%;
+    }
+}
+
+@media (max-width: 732px  ) {
+    .minTitle {
+        top: 11%;
+    }
+}
+@media (max-width: 721px  ){
+    .minTitle {
+        top: 8%;
+    }
+}
+@media (max-width: 641px) {
+    .minTitle {
+        top: 11.5%;
+    }
+}
+
+@media (max-width: 569px) {
+    .minTitle {
+        top: 11%;
+    }
+}
+@media (max-width: 541px  ){
+    .minTitle {
+        top: 8%;
+    }
+}
+
+@media (max-width: 426px) {
+    .wrapperAbout {
+        padding-top: 0;
+    }
+
+    .aboutMe {
+        text-align: center;
+        font-size: 3.5em;
+        margin: 12px 10px 0 0;
+        line-height: 3rem;
+    }
+
+    .minTitle {
+        font-size: 0.6rem;
+        top: 2%;
+        margin-right: 10%;
+    }
+
+    .aboutSpan {
+        width: 67px;
+        border-bottom: 2px solid #20c997;
+    }
+
+    .aboutMeText {
+        width: auto;
+        margin: 0 20px 0 20px;
+    }
+
+    .ulInfo {
+        padding: 2% 0 0 5%;
+    }
+
+    .button_CV {
+        margin: 11% 0 0 30%;
+    }
+}
+
+@media (max-width: 376px) {
+    .minTitle {
+        font-size: 0.6rem;
+        top: 2%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 321px) {
+    .button_CV {
+        margin-left: 4.9rem;
+    }
+}
