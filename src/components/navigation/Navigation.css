@@ -134,6 +134,17 @@
     }
 }
 
+@media (max-width: 1493px) {
+    .soc_link {
+        margin-right: 10px;
+        width: 37px;
+    }
+
+    .ul_social {
+        margin-top: -3rem;
+    }
+}
+
 @media (max-width: 1441px) {
     .foto {
         width: 12.5rem;
@@ -164,7 +175,7 @@
 
 @media (max-width: 1367px  ) {
     .ul_social {
-        margin-top: 12rem;
+        margin-top: -4rem;
     }
 
     .h1_Name_Title {
@@ -172,7 +183,7 @@
     }
 
     .ul_List_Links {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
