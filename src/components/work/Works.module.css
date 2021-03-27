@@ -334,16 +334,14 @@
         margin-left: 2.5rem;
     }
 }
-
-@media (max-width: 361px) {
-    .portfolio {
-        font-size: 3.4rem;
-        margin-right: 0;
-    }
-
+@media (max-width: 363px){
     .work_todo {
-        margin-left: 17%;
-        width: 55rem;
+        margin-left: -1.7rem;
+        width: 20rem;
+    }
+    .container{
+        margin-left: 3rem;
+        width:270px
     }
 }
 
