@@ -1,8 +1,25 @@
 .wrapperWorks {
-    height: 100vh;
+    height: auto;
     position: relative;
     padding: 4.5rem 0;
     overflow: hidden;
+}
+#img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container {
+    /*padding: 1%;*/
+    border: 2px solid darkslateblue;
+    border-radius: 0.3rem;
+    height: 25rem;
+    width: 350px;
+    overflow-y: scroll;
+    margin-left: 25rem;
+    background-color: darkslateblue;
 }
 
 .title {
@@ -17,6 +34,7 @@
     font-weight: 1000;
     text-transform: uppercase;
     font-size: 7em;
+    margin-left: 2%;
 }
 
 .minTitle {
@@ -45,12 +63,15 @@
 .work_todo {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    text-align: center;
 }
 
 .title_todo {
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 6%;
+    text-align: center;
+    margin-right: 1rem;
 }
 
 @media (max-width: 2561px) {
@@ -71,6 +92,11 @@
     .title_todo {
         margin-bottom: 0;
     }
+    .container{
+        width: 850px;
+        margin-left: 35rem;
+        height: 61rem;
+    }
 }
 
 @media (max-width: 1537px) {
@@ -80,7 +106,7 @@
 
     .minTitle {
         font-size: .9rem;
-        top: 14.5%;
+        top: 14%;
     }
 
     .portfolioSpan {
@@ -91,11 +117,16 @@
     .title_todo {
         margin-bottom: 0;
     }
+    .container{
+        margin-left: 17rem;
+        width: 500px;
+        height: 36rem;
+    }
 }
 
 @media (max-width: 1441px) {
     .minTitle {
-        top: 15.5%;
+        top: 13%;
     }
 
     .title_todo {
@@ -103,23 +134,35 @@
         margin-left: 7%;
         margin-bottom: 0;
     }
+    .container{
+        margin-left: 17rem;
+        width: 500px;
+        height: 36rem;
+    }
 }
-@media (max-width: 1367px  ){
-    .minTitle{
+
+@media (max-width: 1367px  ) {
+    .minTitle {
         top: 11%;
     }
 }
+
 @media (max-width: 1025px) {
     .title_todo {
         font-size: 1.5rem;
         margin-left: 6%;
         margin-bottom: 0;
     }
+
     .minTitle {
-        top: 17%;
+        top: 13%;
     }
+
     .wrapperWorks {
         height: auto;
+    }
+    .container{
+        margin-left: 15rem;
     }
 }
 
@@ -147,7 +190,7 @@
         font-size: .8rem;
         font-weight: bold;
         margin-bottom: 0;
-        top: 6%;
+        top: 3%;
     }
 
     .portfolioSpan {
@@ -159,6 +202,9 @@
         font-size: 1.3rem;
         margin-left: 4.2%;
         margin-bottom: 0;
+    }
+    .container{
+        margin-left: 9rem;
     }
 }
 
@@ -219,8 +265,13 @@
     }
 
     .work_todo {
-        margin-left: 22%;
-        width: 55rem;
+        margin-left: -3.5%;
+        width: 20rem;
+    }
+    .container{
+        margin-left: 3.5rem;
+        width: 300px;
+        height: 24.5rem;
     }
 }
 
@@ -239,6 +290,9 @@
     .portfolioSpan {
         width: 65px;
         border-bottom: 2px solid #20c997;
+    }
+    .container{
+        margin-left: 2.5rem;
     }
 }
 
@@ -268,7 +322,11 @@
     }
 
     .work_todo {
-        margin-left: 13%;
-        width: 55rem;
+        margin-left: -1.7rem;
+        width: 20rem;
+    }
+    .container{
+        margin-left: 1.5rem;
+        width:270px
     }
 }

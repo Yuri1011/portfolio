@@ -163,6 +163,9 @@
 }
 
 @media (max-width: 1025px) {
+    .wrapperAbout{
+        height: auto;
+    }
     .info {
         margin-top: 1%;
     }
@@ -176,7 +179,7 @@
     }
 
     .minTitle {
-        top: 8%;
+        top: 10%;
     }
 }
 
@@ -205,7 +208,7 @@
 
     .minTitle {
         font-size: 0.7rem;
-        top: 11%;
+        top: 8%;
     }
 
     .aboutSpan {
@@ -291,6 +294,7 @@
     .aboutMeText {
         width: auto;
         margin: 0 20px 0 20px;
+        font-size: 1rem;
     }
 
     .ulInfo {

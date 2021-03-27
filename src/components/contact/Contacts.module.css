@@ -224,6 +224,11 @@ textarea {
         top: 4%;
     }
 
+    .text_button {
+        margin: 8% 8% 8% -55%;
+        width: 50rem;
+    }
+
     .contactSpan {
         width: 80px;
         border-bottom: 3px solid #20c997;
@@ -253,13 +258,14 @@ textarea {
         height: auto;
     }
 
-   form{
-       width: 50%;
-   }
-   .text_button{
-       margin: 8% 8% 8% -47%;
-       width: 50rem;
-   }
+    form {
+        width: 50%;
+    }
+
+    .text_button {
+        margin: 8% 8% 8% -47%;
+        width: 50rem;
+    }
 }
 
 @media (max-width: 426px) {
@@ -291,6 +297,13 @@ textarea {
     .contactSpan {
         border-bottom: 2px solid #20c997;
     }
+    form {
+        width: 40%;
+    }
+    .text_button {
+        margin: 8% 8% 8% -75%;
+        width: 50rem;
+    }
 }
 
 @media (max-width: 361px) {
@@ -301,6 +314,7 @@ textarea {
     .contacts {
         padding-top: 20px;
     }
+
 }
 
 @media (max-width: 321px) {
@@ -315,12 +329,16 @@ textarea {
         margin-bottom: 0;
         top: 3%;
     }
+    form{
+        width: 35%;
+    }
 
     .button_send {
-        width: 50%;
+        width: 20%;
+    }
+    .text_button {
+        margin: 8% 8% 8% -89%;
+        width: 50rem;
     }
 
-    .contacts {
-        padding-top: 7px;
-    }
 }
