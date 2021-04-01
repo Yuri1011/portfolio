@@ -35,19 +35,19 @@ export function Header() {
     }
 
     return (
-        <div>
-            <header className='header'>
-                <div className='header_links'>
+        <section className={'section-header'}>
+            <header className={'header'}>
+                <div className={'header_links'}>
                 <span>
-                    <a href="#home" className='text-decoration-none text-white'>Home</a></span>
+                    <a href="#home" className={'text-decoration-none text-white'}>Home</a></span>
                     <span>
-                    <a href="#about" className='text-decoration-none text-white'>AboutMe</a></span>
+                    <a href="#about" className={'text-decoration-none text-white'}>AboutMe</a></span>
                     <span>
-                    <a href="#skill" className='text-decoration-none text-white'>Skills</a></span>
+                    <a href="#skill" className={'text-decoration-none text-white'}>Skills</a></span>
                     <span>
-                    <a href="#work" className='text-decoration-none text-white'>Works</a></span>
+                    <a href="#work" className={'text-decoration-none text-white'}>Works</a></span>
                     <span>
-                    <a href="#contact" className='text-decoration-none text-white'>Contacts</a></span>
+                    <a href="#contact" className={'text-decoration-none text-white'}>Contacts</a></span>
                 </div>
             </header>
             <div className={'block-cross-menu'}>
@@ -61,12 +61,12 @@ export function Header() {
                 </div>
             </div>
             <span id={'links-mini-title'}>
-                 <a href="#home" className='text-decoration-none '>Home</a>
-                <a href="#about" className='text-decoration-none '>AboutMe</a>
-                <a href="#skill" className='text-decoration-none '>Skills</a>
-                <a href="#work" className='text-decoration-none '>Works</a>
-                <a href="#contact" className='text-decoration-none '>Contacts</a>
+                 <a href="#home" className={'text-decoration-none'}>Home</a>
+                <a href="#about" className={'text-decoration-none'}>AboutMe</a>
+                <a href="#skill" className={'text-decoration-none'}>Skills</a>
+                <a href="#work" className={'text-decoration-none'}>Works</a>
+                <a href="#contact" className={'text-decoration-none'}>Contacts</a>
             </span>
-        </div>
+        </section>
     )
 }

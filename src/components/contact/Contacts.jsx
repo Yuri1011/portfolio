@@ -35,7 +35,8 @@ export function Contacts() {
                             <p className='d-flex'>
                                 <span className="d-flex fas fa-email pe-1"><i className='mx-1'>yury1011.89@gmail.com</i></span>
                             </p>
-                            <ul className='ul_social'>
+
+                            <ul className={c.ul_social_contacts}>
                                 <li>
                                     <a href="https://www.linkedin.com/in/yuri-trypolski-4b1ab6187/" target='_blank'>
                                         <img className='soc_link ' src={link} alt="logo"/>
@@ -52,6 +53,7 @@ export function Contacts() {
                                     </a>
                                 </li>
                             </ul>
+
                         </div>
                     </div>
 

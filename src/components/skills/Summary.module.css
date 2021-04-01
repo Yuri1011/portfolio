@@ -253,9 +253,12 @@
 }
 
 @media (max-width: 1025px) {
+    .wrapperWelcome{
+        margin-left: 15rem;
+    }
     .minTitle {
         font-size: 2rem;
-        top: 3.7%;
+        top: 4%;
     }
 
     .title_serf {
@@ -311,6 +314,7 @@
     .wrapperWelcome {
         padding-left: 0;
         padding-top: 0;
+        margin-left: 0;
     }
 
     .summaryMe {

@@ -148,6 +148,9 @@
 }
 
 @media (max-width: 1025px) {
+    .wrapperWorks{
+        margin-left: 13rem;
+    }
     .title_todo {
         font-size: 1.5rem;
         margin-left: 6%;
@@ -162,7 +165,7 @@
         height: auto;
     }
     .container{
-        margin-left: 15rem;
+        margin-left: 11rem;
     }
 }
 
@@ -173,6 +176,7 @@
 
     .wrapperWorks {
         height: auto;
+        margin-left: 0;
     }
 }
 

@@ -72,6 +72,7 @@
     background-color: brown;
 }
 
+
 @media (max-width: 2561px) {
     .wrapperAbout {
         height: 100vh;
@@ -161,6 +162,7 @@
         font-size: 0.9rem;
         top: 16%;
     }
+
 }
 
 @media (max-width: 1367px  ) {
@@ -172,6 +174,7 @@
 @media (max-width: 1025px) {
     .wrapperAbout {
         height: auto;
+        margin-left: 17rem;
     }
 
     .info {
@@ -187,7 +190,7 @@
     }
 
     .minTitle {
-        top: 10%;
+        top: 8%;
     }
 }
 
@@ -198,6 +201,7 @@
 
     .wrapperAbout {
         height: auto;
+        margin-left: 0;
     }
 }
 

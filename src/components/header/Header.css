@@ -9,6 +9,7 @@
     width: 100%;
     height: 50px;
 }
+
 .header_mini2 {
     height: 10rem;
 }
@@ -16,24 +17,27 @@
 .header_links {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 100%
 }
 
 .header_links span {
     display: block;
 }
-.band-block{
+
+.band-block {
     display: flex;
     flex-direction: column;
 }
-.band{
+
+.band {
     display: inline-block;
     margin-bottom: 3px;
     width: 30px;
     height: 2px;
     background-color: aqua;
 }
-.menu a{
+
+.menu a {
     color: aqua;
     text-align: center;
     padding-bottom: 8px;
@@ -41,35 +45,29 @@
     flex-flow: column;
     justify-content: space-around;
 }
-.menu-none{
+
+.menu-none {
     display: none;
 }
 
 
-.cross{
+.cross {
     display: none;
     justify-content: flex-end;
-    padding-right: 5px;
+    padding-right: 15px;
     font-weight: 800;
     background-color: black;
     position: fixed;
-    top: 0px;
+    top: 6px;
     right: 0px;
     z-index: 13;
 }
-.block-cross-menu{
+
+.block-cross-menu {
     position: relative;
 }
-@media (max-width: 1025px  ) {
-    .header {
-        display: flex;
-        align-items: center;
-        position: fixed;
-        z-index: 5;
-        background-color: black;
-        font-size: 2.5rem;
-        height: 80px;
-    }
+.section-header{
+    display: none;
 }
 @media (max-width: 813px  ) {
     .header {
@@ -79,7 +77,11 @@
         z-index: 5;
         background-color: black;
     }
+    .section-header{
+        display: block;
+    }
 }
+
 @media (max-width: 737px  ) {
     .header {
         display: flex;
@@ -89,6 +91,7 @@
         background-color: black;
     }
 }
+
 @media (max-width: 732px  ) {
     .header {
         display: flex;
@@ -98,6 +101,7 @@
         background-color: black;
     }
 }
+
 @media (max-width: 721px  ) {
     .header {
         display: flex;
@@ -110,6 +114,7 @@
 
     }
 }
+
 @media (max-width: 717px) {
     .header {
         display: flex;
@@ -119,21 +124,26 @@
         background-color: black;
     }
 }
-@media (max-width: 541px  ){
+
+@media (max-width: 541px  ) {
     .header {
+        display: none;
+    }
+    .header_mini {
         display: flex;
+        justify-content: center;
         align-items: center;
         position: fixed;
         z-index: 5;
         background-color: black;
-        font-size: 1.5rem;
-        height: 50px;
     }
 }
-    @media (max-width: 391px) {
+
+@media (max-width: 391px) {
     .header {
         display: none;
     }
+
     .header_mini {
         display: flex;
         justify-content: center;

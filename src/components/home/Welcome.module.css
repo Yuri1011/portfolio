@@ -155,7 +155,22 @@
         border-color: #0dcaf0 !important;
     }
 }
+@media (max-width: 1025px) {
+    .text h1 {
+        width: 100%;
+        white-space: nowrap;
+        font-size: 2rem;
+        letter-spacing: 0;
+    }
 
+    .bgImg {
+        background-size: 100% 100%;
+    }
+
+    .content {
+        margin-left: 22%;
+    }
+}
 @media (max-width: 790px) {
     .text h1 {
         width: 100%;
