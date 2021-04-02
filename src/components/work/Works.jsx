@@ -3,6 +3,7 @@ import c from "./Works.module.css"
 import todo from "../../assets/todoList.png"
 import diet from "../../assets/diet.png"
 import simple from "../../assets/simple.png"
+import tweet from "../../assets/tweet.png"
 
 export function Works() {
 
@@ -27,35 +28,46 @@ export function Works() {
                 <div className={c.work_todo}>
                     <div id={'img'}>
                         <div>
-                            <a className='text-decoration-none' href="https://yuri1011.github.io/tasklist/"
+                            <a className={'text-decoration-none'} href="https://yuri1011.github.io/tasklist/"
                                target='_blank'>
                                 <p className={c.title_todo}>To-do list</p>
                             </a>
                         </div>
                         <div>
-                            <img src={todo} alt='image_todo_list' className='borderWorksImg card-img w-75 rounded'/>
+                            <img src={todo} alt='image_todo_list' className={'borderWorksImg card-img w-75 rounded'}/>
                         </div>
                     </div>
                     <div id={'img'}>
                         <div>
-                            <a className='text-decoration-none' href="https://yuri1011.github.io/Diet/"
+                            <a className={'text-decoration-none'} href="https://yuri1011.github.io/Diet/"
                                target='_blank'>
                                 <p className={c.title_todo}>Diet</p>
                             </a>
                         </div>
                         <div>
-                            <img src={diet} alt='image_todo_list' className='borderWorksImg card-img w-75 rounded'/>
+                            <img src={diet} alt='image_todo_list' className={'borderWorksImg card-img w-75 rounded'}/>
                         </div>
                     </div>
                     <div id={'img'}>
                         <div>
-                            <a className='text-decoration-none' href="https://yuri1011.github.io/Simple/"
+                            <a className={'text-decoration-none'} href="https://yuri1011.github.io/tweet/"
+                               target='_blank'>
+                                <p className={c.title_todo}>Tweet</p>
+                            </a>
+                        </div>
+                        <div>
+                            <img src={tweet} alt='image_todo_list' className={'borderWorksImg card-img w-75 rounded'}/>
+                        </div>
+                    </div>
+                    <div id={'img'}>
+                        <div>
+                            <a className={'text-decoration-none'} href="https://yuri1011.github.io/Simple/"
                                target='_blank'>
                                 <p className={c.title_todo}>Simple</p>
                             </a>
                         </div>
                         <div>
-                            <img src={simple} alt='image_todo_list' className='borderWorksImg card-img w-75 rounded'/>
+                            <img src={simple} alt='image_todo_list' className={'borderWorksImg card-img w-75 rounded'}/>
                         </div>
                     </div>
                 </div>

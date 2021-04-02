@@ -76,7 +76,7 @@ export function Welcome() {
                 </div>
                 <div className={c.text}>
                     <h1>
-                        <a href='#' style={textStyle} className='typewrite' data-period='2000'
+                        <a href='#' style={textStyle} className={'typewrite'} data-period='2000'
                            data-type='[ "I am Yuri Trypolski.", "I Love to Develop.", "I am a Creative.", "I am Versatile Person."]'>
                             <span className={'wrap'}></span>
                         </a>

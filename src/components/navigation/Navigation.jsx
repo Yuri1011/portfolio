@@ -44,59 +44,89 @@ export function Navigation() {
 
     return (
         <div>
-            <nav id='nav' className='nav black'>
+            <nav id='nav'
+                 className={'nav black'}>
                 <div>
-                    <a href="https://disk.yandex.by/i/AdkURAyy8hxVBg" className='text-decoration-none' target='_blank'>
+                    <a href="https://disk.yandex.by/i/AdkURAyy8hxVBg"
+                       className={'text-decoration-none'}
+                       target='_blank'>
                         <span>
                             <img src={logo}
-                                 className='foto img-thumbnail bg-dark border-pill d-block'
-                                 title="I'm Yuri" alt="logo"/>
+                                 className={'foto img-thumbnail bg-dark border-pill d-block'}
+                                 title="I'm Yuri"
+                                 alt="logo"/>
                         </span>
-                        <h1 className='h1_Name_Title text-white fw-bold'>Yuri Trypolski</h1>
+                        <h1 className={'h1_Name_Title text-white fw-bold'}>Yuri Trypolski</h1>
                     </a>
                     <div
                         style={styleComponent.containerLinks}>
-                        <ul className='ul_List_Links'>
-                            <li className='nav-item'>
-                                <a id='colorLink' className="colorWhite" style={styleComponent.linkNav}
+                        <ul className={'ul_List_Links'}>
+                            <li className={'nav-item'}>
+                                <a id='colorLink'
+                                   className={'colorWhite'}
+                                   style={styleComponent.linkNav}
                                    href="#home">Home</a>
                             </li>
                             <li>
-                                <a id='colorLink' className="colorWhite" style={styleComponent.linkNav} href="#about">About
+                                <a id='colorLink'
+                                   className={'colorWhite'}
+                                   style={styleComponent.linkNav}
+                                   href="#about">About
                                     Me</a>
                             </li>
                             <li>
-                                <a id='colorLink' className="colorWhite" style={styleComponent.linkNav} href="#skill">My
+                                <a id='colorLink'
+                                   className={'colorWhite'}
+                                   style={styleComponent.linkNav}
+                                   href="#skill">My
                                     Skills</a>
                             </li>
                             <li>
-                                <a id='colorLink' className="colorWhite" style={styleComponent.linkNav} href="#work">My
+                                <a id='colorLink'
+                                   className={'colorWhite'}
+                                   style={styleComponent.linkNav}
+                                   href="#work">My
                                     Works</a>
                             </li>
                             <li>
-                                <a id='colorLink' className="colorWhite" style={styleComponent.linkNav}
+                                <a id='colorLink'
+                                   className={'colorWhite'}
+                                   style={styleComponent.linkNav}
                                    href="#contact">Contacts</a>
                             </li>
                         </ul>
                     </div>
-                    <ul className='ul_social'>
+                    <ul className={'ul_social'}>
                         <li>
-                            <a href="https://www.linkedin.com/in/yuri-trypolski-4b1ab6187/" target='_blank'>
-                                <img className='soc_link ' src={link} alt="logo"/>
+                            <a href="https://www.linkedin.com/in/yuri-trypolski-4b1ab6187/"
+                               target='_blank'>
+                                <img className={'soc_link '}
+                                     src={link}
+                                     alt="logo"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/trypolski_yury/" target='_blank'>
-                                <img className='soc_link ' src={insta} alt="logo"/>
+                            <a href="https://www.instagram.com/trypolski_yury/"
+                               target='_blank'>
+                                <img className={'soc_link '}
+                                     src={insta}
+                                     alt="logo"/>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/Yuri1011" target='_blank'>
-                                <img className='soc_link rounded-pill ' src={git} alt="logo"/>
+                            <a href="https://github.com/Yuri1011"
+                               target='_blank'>
+                                <img className={'soc_link rounded-pill '}
+                                     src={git}
+                                     alt="logo"/>
                             </a>
                         </li>
                         <a href="#nav">
-                            <img id='svg' className=' svg' src={svg} alt="svg" onClick={bg}/>
+                            <img id='svg'
+                                 className={' svg'}
+                                 src={svg}
+                                 alt="svg"
+                                 onClick={bg}/>
                         </a>
                     </ul>
                 </div>

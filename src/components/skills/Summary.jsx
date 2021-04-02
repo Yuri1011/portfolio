@@ -56,7 +56,7 @@ export function Summary() {
                         <p className={c.text_curs}>Completed a course on 3D modeling and animation in the Blender program.</p>
                         <div>
                             <a href="https://disk.yandex.by/i/VvdfwlKJT9Q0eQ" target={'_blank'}>
-                                <img className='card-img' src={certificate} alt="certificate"/>
+                                <img className={'card-img'} src={certificate} alt="certificate"/>
                             </a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export function Summary() {
                         <p className={c.text_curs}>Mastered organic sculpting in the Blender program.</p>
                         <div>
                             <a href="https://disk.yandex.by/i/KOXgTCrNBHcV5Q" target={'_blank'}>
-                                <img className='card-img' src={certificateUdemy} alt="certificate"/>
+                                <img className={'card-img'} src={certificateUdemy} alt="certificate"/>
                             </a>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ export function Summary() {
                         <p className={c.text_curs}>An interesting, difficult and very informative course in JavaScript and React</p>
                         <div>
                             <a href="https://disk.yandex.by/i/V-O5Quav7CitZw" target={'_blank'}>
-                                <img className='card-img' src={certificateJSUdemy} alt="certificate"/>
+                                <img className={'card-img'} src={certificateJSUdemy} alt="certificate"/>
                             </a>
                         </div>
                     </div>
@@ -123,12 +123,12 @@ export function Summary() {
                          aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={styleComponent.boot}>BootStrap => 40%
                     </div>
                 </div>
-                <div>
-                    <div className={c.progress}
-                         role="progressbar"
-                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={styleComponent.redux}>Redux => 50%
-                    </div>
-                </div>
+                {/*<div>*/}
+                {/*    <div className={c.progress}*/}
+                {/*         role="progressbar"*/}
+                {/*         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style={styleComponent.redux}>Redux => 50%*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
         </section>
     )
