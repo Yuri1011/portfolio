@@ -5,6 +5,7 @@
     height: 100vh;
     background-color: white;
     font-family: "Poppins", sans-serif;
+    box-sizing: content-box;
 }
 
 .aboutMe {
@@ -120,7 +121,7 @@
 
     .minTitle {
         font-size: 1rem;
-        top: 14%;
+        top: 12%;
     }
 
     .aboutSpan {

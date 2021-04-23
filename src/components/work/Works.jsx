@@ -4,6 +4,8 @@ import todo from "../../assets/todoList.png"
 import diet from "../../assets/diet.png"
 import simple from "../../assets/simple.png"
 import tweet from "../../assets/tweet.png"
+import pointer from "../../assets/pointer.ico"
+import scroll from "../../assets/scroll.ico"
 
 export function Works() {
 
@@ -30,7 +32,13 @@ export function Works() {
                         <div>
                             <a className={'text-decoration-none'} href="https://yuri1011.github.io/tasklist/"
                                target='_blank'>
-                                <p className={c.title_todo}>To-do list</p>
+                                <span>
+                                    <img src={pointer} alt="pointer"/>
+                                </span>
+                                <p className={c.click}>click tittle</p>
+                                <p className={c.title_todo}>
+                                    To-do list
+                                </p>
                             </a>
                         </div>
                         <div>
@@ -71,6 +79,10 @@ export function Works() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className={c.scroll}>
+                <img src={scroll} alt="scroll-pointer"/>
+               <div>leaf through my works</div>
             </div>
         </section>
     )
