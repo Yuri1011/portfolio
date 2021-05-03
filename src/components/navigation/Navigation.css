@@ -93,7 +93,34 @@
     }
 
     .ul_social {
-        margin-top: 4rem;
+        margin-top: -8rem;
+    }
+
+    .soc_link {
+        margin-right: 25px;
+        width: 50px;
+    }
+
+    .svg {
+        width: 50px;
+    }
+}
+@media (max-width: 1921px){
+    .foto {
+        width: 23rem;
+        height: 22.5rem;
+    }
+
+    .h1_Name_Title {
+        font-size: 55px;
+    }
+
+    .ul_List_Links {
+        font-size: 2.9rem;
+    }
+
+    .ul_social {
+        margin-top: -8rem;
     }
 
     .soc_link {
@@ -152,15 +179,15 @@
     }
 
     .h1_Name_Title {
-        font-size: 25px;
+        font-size: 38px;
     }
 
     .ul_List_Links {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
 
     .ul_social {
-        margin-top: -3rem;
+        margin-top: 12rem;
     }
 
     .soc_link {
@@ -186,7 +213,14 @@
         font-size: 1.5rem;
     }
 }
-
+@media (max-width: 1025px  ){
+    .ul_social {
+        margin-top: 11rem;
+    }
+    .ul_List_Links {
+        font-size: 2.5rem;
+    }
+}
 
 @media (max-width: 997px  ) {
     .ul_social {
